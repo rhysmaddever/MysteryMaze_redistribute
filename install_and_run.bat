@@ -1,9 +1,12 @@
 @echo off
-:: Check if the Visual C++ Redistributable is installed
-VC_redist.x86.exe /quiet /norestart
-echo Installing Visual C++ Redistributable x86...
-timeout /t 5
-:: Change working directory to the location of the .bat file
+:: Install Visual C++ Redistributable
+vcredist.x86.exe /quiet /norestart
+echo Installing Visual C++ Redistributable x86 ...
+timeout /t 10
+
+:: Change working directory to the folder where the .bat file is located
 cd /d "%~dp0"
+
 :: Run the game
 MysteryMaze.exe
+
