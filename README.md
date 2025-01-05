@@ -99,13 +99,3 @@ Progress, including the player's position, level, and time remaining, is stored 
 Multi-Level Progression:
 
 Completing the maze takes you to the next level, with a new maze and increased difficulty.
-
-Instructions for Submission
-
-For GitHub:
-
-Place the executable file (MysteryMaze.exe) and this README.txt in the root of the repository.
-
-Include any required assets (e.g., arial.ttf font, textures) in a clearly labeled assets/ folder.
-
-Ensure that the game runs independently by including all necessary libraries or linking them statically.
