@@ -14,6 +14,8 @@ S: Move down
 
 D: Move right
 
+<br/>
+
 Close Window: Exit the game (the timer will stop and display elapsed time in the console)
 
 Objective:
